@@ -6,8 +6,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_marker_cluster_plus/flutter_map_marker_cluster_plus.dart';
 import 'package:http/http.dart' as http;
 import 'package:latlong2/latlong.dart';
-import 'package:pizzacorn_ui/pizzacorn_ui.dart'
-    hide AddressModel, GeoModel, MapMarkerModel, PizzacornMap;
+import 'package:pizzacorn_ui/pizzacorn_ui.dart';
 
 import '../models/map/map_marker_model.dart';
 import '../models/map/map_model.dart';

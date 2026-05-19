@@ -26,21 +26,14 @@ PizzacornMap(
   autocompleteUrl: autocompleteUrl,
   placeDetailsUrl: placeDetailsUrl,
   onPlaceSelected: (addressModel, geoModel) {
-    // Guardar ubicación
+    // Guardar ubicación 📍
   },
   onMarkerTap: (mapMarkerModel) {
-    // Abrir detalle
+    // Abrir detalle ✨
   },
 )
 ```
 
-## Nota Pizzacorn
+## Dependencias
 
-Mientras esta librería viva dentro de `pizzacorn_ui`, depende de:
-
-```yaml
-pizzacorn_ui:
-  path: ..
-```
-
-Cuando la saques a su propio repositorio, cambia esa dependencia a Git o Pub.
+Este paquete usa `pizzacorn_ui` como design system base y `flutter_map` para renderizar los mapas.

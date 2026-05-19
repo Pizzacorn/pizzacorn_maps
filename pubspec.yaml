@@ -1,7 +1,6 @@
 name: pizzacorn_maps
 description: "Pizzacorn Maps: mapas, marcadores, geocoding y búsqueda para apps Pizzacorn."
 version: 0.0.1
-publish_to: none
 
 homepage: https://github.com/Pizzacorn/pizzacorn_maps
 repository: https://github.com/Pizzacorn/pizzacorn_maps
@@ -20,8 +19,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  pizzacorn_ui:
-    path: ..
+  pizzacorn_ui: ^0.0.99
 
   cloud_firestore: ^6.1.1
   flutter_map: ^8.2.1

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pizzacorn_ui/pizzacorn_ui.dart' hide MapMarkerModel;
+import 'package:pizzacorn_ui/pizzacorn_ui.dart';
 
 import '../models/map/map_marker_model.dart';
 

@@ -350,14 +350,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.4.1"
-  flutter_dotenv:
-    dependency: transitive
-    description:
-      name: flutter_dotenv
-      sha256: d41da11fb497314fbf89811ec30af02d1d898b47980a129f0a8c0a1720460ba2
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -387,14 +379,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "8.3.0"
-  flutter_map_animations:
-    dependency: transitive
-    description:
-      name: flutter_map_animations
-      sha256: bf583863561861aaaf4854ae7ed8940d79bea7d32918bf7a85d309b25235a09e
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.0"
   flutter_map_marker_cluster_plus:
     dependency: "direct main"
     description:
@@ -781,14 +765,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.3.0"
-  maps_launcher:
-    dependency: transitive
-    description:
-      name: maps_launcher
-      sha256: dac4c609720211fa6336b5903d917fe45e545c6b5665978efc3db2a3f436b1ae
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0+1"
   matcher:
     dependency: transitive
     description:
@@ -976,9 +952,10 @@ packages:
   pizzacorn_ui:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: pizzacorn_ui
+      sha256: "983f5b953e96c8289780fa40da3166275f1c8649e0497f8fa5347f7cd3834d03"
+      url: "https://pub.dev"
+    source: hosted
     version: "0.0.99"
   platform:
     dependency: transitive

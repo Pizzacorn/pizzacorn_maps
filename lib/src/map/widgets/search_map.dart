@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:pizzacorn_ui/pizzacorn_ui.dart' hide PizzacornMapPrediction;
+import 'package:pizzacorn_ui/pizzacorn_ui.dart';
 
 import 'pizzacorn_map.dart';
 
